@@ -1,8 +1,6 @@
 const { program } = require("commander");
 const contacts = require("./contacts");
 
-// console.log(contacts);
-
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
